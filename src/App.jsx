@@ -5,11 +5,13 @@ import About from './components/Sections/About';
 import Resume from './components/Sections/Resume';
 import Portfolio from './components/Sections/Portfolio';
 import Contact from './components/Sections/Contact';
+import Cursor from './components/Layout/Cursor';
 import './App.css';
 
 function App() {
   return (
     <div className="app-container">
+      <Cursor />
       <Sidebar />
       <main className="main-content">
         <section id="hero" className="section-container">
