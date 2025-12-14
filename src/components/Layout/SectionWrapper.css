@@ -1,0 +1,23 @@
+.section-wrapper {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+    will-change: opacity, visibility;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: var(--container-padding);
+    border-bottom: 1px solid var(--border-light);
+}
+
+.section-wrapper.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+    .section-wrapper {
+        padding: 40px 20px;
+    }
+}
