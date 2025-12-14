@@ -8,7 +8,7 @@
     flex-direction: column;
     justify-content: center;
     padding: var(--container-padding);
-    border-bottom: 1px solid var(--border-light);
+    padding: var(--container-padding);
 }
 
 .section-wrapper.is-visible {

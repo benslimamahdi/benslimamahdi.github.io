@@ -6,6 +6,7 @@ import Resume from './components/Sections/Resume';
 import Portfolio from './components/Sections/Portfolio';
 import Contact from './components/Sections/Contact';
 import Cursor from './components/Layout/Cursor';
+import Footer from './components/Layout/Footer';
 import './App.css';
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
           {/* Contact Component */}
           <Contact />
         </section>
+        <Footer />
       </main>
     </div>
   );

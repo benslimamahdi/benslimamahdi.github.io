@@ -5,7 +5,7 @@ import './Contact.css';
 const Contact = () => {
     return (
         <SectionWrapper id="contact" className="contact-section">
-            <span className="subtitle"><i className="las la-envelope"></i> Contact</span>
+
             <h2 className="section-title">Let's <span className="text-accent">Connect!</span></h2>
 
             <div className="contact-container">

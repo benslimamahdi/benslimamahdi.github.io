@@ -6,7 +6,6 @@ const Hero = () => {
     return (
         <SectionWrapper id="hero" className="hero-section">
             <div className="hero-content">
-                <span className="subtitle"><i className="las la-home"></i> Introduction</span>
                 <h1 className="title">
                     Hi, I'm <span className="text-accent">Mahdi Ben Slima</span>,<br />
                     DevOps & SRE

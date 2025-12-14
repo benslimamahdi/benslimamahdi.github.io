@@ -5,7 +5,7 @@ import './About.css';
 const About = () => {
     return (
         <SectionWrapper id="about" className="about-section">
-            <span className="subtitle"><i className="las la-user"></i> About Me</span>
+
             <h2 className="section-title">Biography & <span className="text-accent">Skills</span></h2>
 
             <div className="about-content">

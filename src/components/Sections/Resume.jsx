@@ -5,7 +5,7 @@ import './Resume.css';
 const Resume = () => {
     return (
         <SectionWrapper id="resume" className="resume-section">
-            <span className="subtitle"><i className="las la-briefcase"></i> Resume</span>
+
             <h2 className="section-title">Experience & <span className="text-accent">Education</span></h2>
 
             <div className="resume-grid">
