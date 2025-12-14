@@ -65,7 +65,7 @@ const Contact = () => {
                             <i className="las la-envelope"></i>
                         </a>
                         {/* Example GitHub or other link */}
-                        <a href="#" className="social-btn">
+                        <a href="https://github.com/benslimamahdi" target="_blank" rel="noreferrer" className="social-btn">
                             <i className="lab la-github"></i>
                         </a>
                     </div>
