@@ -112,5 +112,81 @@
         ],
         "techStack": ["Python", "TensorFlow", "NLP"],
         "githubLink": "https://github.com/benslimamahdi"
+    },
+    {
+        "id": 9,
+        "title": "Industry Best Practices Recommender",
+        "category": "AI",
+        "image": "/images/project-mlops.png",
+        "description": "Developed an AI system leveraging Retrieval-Augmented Generation (RAG) with LangChain and Hugging Face embeddings to recommend compliance and process improvements.",
+        "details": "Hosted embeddings and retrieval pipeline via GCP Vertex AI with scalable APIs. Implemented caching and batch inference to improve performance by 30%.",
+        "keyAchievements": [
+            "RAG Implementation",
+            "GCP Vertex AI Hosting",
+            "Performance improved by 30%"
+        ],
+        "techStack": ["RAG", "LangChain", "Hugging Face", "GCP Vertex AI"],
+        "githubLink": "https://github.com/benslimamahdi",
+        "isRecent": true
+    },
+    {
+        "id": 10,
+        "title": "AI Personal Assistant Agent",
+        "category": "AI",
+        "image": "/images/project-mlops.png",
+        "description": "Developed a multi-agent personal assistant capable of scheduling, summarizing text, retrieving contextual information, and reasoning across tools.",
+        "details": "Integrated LangChain, Gemini API, and custom Python logic for dynamic task execution. Designed structured prompts and evaluation rubrics to measure reasoning accuracy.",
+        "keyAchievements": [
+            "Multi-agent architecture",
+            "Gemini API Integration",
+            "Dynamic task execution"
+        ],
+        "techStack": ["LangChain", "Gemini API", "Python"],
+        "githubLink": "https://github.com/benslimamahdi",
+        "isRecent": true
+    },
+    {
+        "id": 11,
+        "title": "YouTube Comment Classification",
+        "category": "AI",
+        "image": "/images/project-mlops.png",
+        "description": "Implemented an Arabic NLP pipeline for automated moderation of user comments using Transformers and BERT-based models.",
+        "details": "Deployed inference endpoint as a REST API with FastAPI and Docker, monitored via Prometheus. Reduced manual moderation by 60%.",
+        "keyAchievements": [
+            "Arabic NLP pipeline",
+            "FastAPI & Docker deployment",
+            "Manual moderation reduced by 60%"
+        ],
+        "techStack": ["NLP", "BERT", "FastAPI", "Docker"],
+        "githubLink": "https://github.com/benslimamahdi"
+    },
+    {
+        "id": 12,
+        "title": "Cure Companion – Medical Chat",
+        "category": "AI",
+        "image": "/images/project-mlops.png",
+        "description": "Fine-tuned a T5-small model on curated medical data to assist patients with symptom interpretation and treatment insights.",
+        "details": "Developed a multi-turn conversation interface with LangChain + Streamlit. Deployed backend as a containerized microservice on Kubernetes.",
+        "keyAchievements": [
+            "T5 model fine-tuning",
+            "Multi-turn conversation",
+            "Kubernetes deployment"
+        ],
+        "techStack": ["T5 Model", "LangChain", "Streamlit", "Kubernetes"],
+        "githubLink": "https://github.com/benslimamahdi"
+    },
+    {
+        "id": 13,
+        "title": "Resume Anonymization System",
+        "category": "AI",
+        "image": "/images/project-mlops.png",
+        "description": "Built a tool leveraging Presidio for anonymizing resumes and removing bias in AI hiring systems.",
+        "keyAchievements": [
+            "Resume anonymization",
+            "Bias removal",
+            "Privacy preservation"
+        ],
+        "techStack": ["Presidio", "NLP", "Python"],
+        "githubLink": "https://github.com/benslimamahdi"
     }
 ]
