@@ -8,8 +8,8 @@ const Resume = () => {
     const [showAllExperience, setShowAllExperience] = useState(false);
     const [showAllLeadership, setShowAllLeadership] = useState(false);
 
-    const visibleExperience = showAllExperience ? resumeData.experience : resumeData.experience.slice(0, 4);
-    const visibleLeadership = showAllLeadership ? resumeData.leadership : resumeData.leadership.slice(0, 4);
+    const visibleExperience = showAllExperience ? resumeData.experience : resumeData.experience.slice(0, 3);
+    const visibleLeadership = showAllLeadership ? resumeData.leadership : resumeData.leadership.slice(0, 3);
 
     return (
         <SectionWrapper id="resume" className="resume-section">
@@ -40,7 +40,7 @@ const Resume = () => {
                         </div>
                     ))}
 
-                    {resumeData.experience.length > 4 && (
+                    {resumeData.experience.length > 3 && (
                         <button
                             className="show-more-btn"
                             onClick={() => setShowAllExperience(!showAllExperience)}
@@ -85,7 +85,7 @@ const Resume = () => {
                         </div>
                     ))}
 
-                    {resumeData.leadership.length > 4 && (
+                    {resumeData.leadership.length > 3 && (
                         <button
                             className="show-more-btn"
                             onClick={() => setShowAllLeadership(!showAllLeadership)}
