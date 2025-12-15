@@ -37,21 +37,63 @@
     "leadership": [
         {
             "id": 1,
-            "date": "2025 - 2026",
-            "title": "Young Professionals Coordinator",
-            "organization": "IEEE Future Networks Forum"
+            "date": "2025 - Present",
+            "title": "Co-Founder & CTO",
+            "organization": "Beely",
+            "description": [
+                "Co-founded a startup with a French team, securing incubation at the Clermont Ferrand Incubator.",
+                "Leading technical strategy and development for the platform."
+            ]
         },
         {
             "id": 2,
-            "date": "2025 - 2026",
+            "date": "2024 - 2025",
             "title": "Co-Founder & Operations Lead",
-            "organization": "DevAura (Freelance)"
+            "organization": "Khabini (Small Business: AI Art Sales)",
+            "description": [
+                "Co-founded and launched an e-commerce business specializing in Illusion Diffusion AI-generated art.",
+                "Managed all core logistics and accounting functions."
+            ]
         },
         {
             "id": 3,
+            "date": "2025 - 2026",
+            "title": "Young Professionals Coordinator",
+            "organization": "IEEE Future Networks Forum",
+            "description": "Coordinating professional activities and networking events for young professionals within the forum."
+        },
+        {
+            "id": 4,
+            "date": "2025 - 2026",
+            "title": "Co-Founder & Operations Lead",
+            "organization": "Devaura (Freelance)",
+            "description": [
+                "Developed and launched the official website.",
+                "Leading DevOps initiatives and taking on freelance DevOps projects."
+            ]
+        },
+        {
+            "id": 5,
             "date": "2024 - 2025",
             "title": "Student Branch Chair",
-            "organization": "IEEE Faculty of Sciences of Sfax"
+            "organization": "IEEE Faculty of Sciences of Sfax",
+            "description": [
+                "Led a 300+ member organization, successfully managing technical and professional programs aligned with organizational KPIs.",
+                "Achieved the prestigious Exemplary Student Branch Award.",
+                "Secured competitive excellence, including 4 victories at the TSYP Congress technical challenges and top placements in numerous regional and national competitions.",
+                "Drove key initiatives to improve team collaboration, knowledge sharing, and data-driven decision-making processes."
+            ]
+        },
+        {
+            "id": 6,
+            "date": "2023 - 2024",
+            "title": "Technical Manager",
+            "organization": "Securinets Faculty of Sciences of Sfax",
+            "description": [
+                "Directed the technical team for cybersecurity workshops and CTF competitions, successfully elevating team skill proficiency.",
+                "Ensured operational reliability for over 20 hands-on events.",
+                "Headed the CTF authoring team and managed outreach efforts to engage external cybersecurity experts and corporate sponsors."
+            ]
         }
     ]
 }

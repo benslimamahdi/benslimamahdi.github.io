@@ -47,6 +47,17 @@ const Resume = () => {
                             <span className="date">{item.date}</span>
                             <h4>{item.title}</h4>
                             <span className="location">{item.organization}</span>
+                            {item.description && (
+                                Array.isArray(item.description) ? (
+                                    <ul className="resume-description-list">
+                                        {item.description.map((desc, index) => (
+                                            <li key={index}>{desc}</li>
+                                        ))}
+                                    </ul>
+                                ) : (
+                                    <p className="resume-description">{item.description}</p>
+                                )
+                            )}
                         </div>
                     ))}
                 </div>

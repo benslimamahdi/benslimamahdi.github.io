@@ -82,6 +82,19 @@
     transition: 0.3s;
 }
 
+.resume-description-list {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.resume-description-list li {
+    color: var(--text-secondary);
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 5px;
+    list-style-type: disc;
+}
+
 /* Responsive */
 @media (max-width: 991px) {
     .resume-grid {
