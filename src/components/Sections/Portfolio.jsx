@@ -69,7 +69,7 @@ const Portfolio = () => {
                             </div>
                         </div>
                         <div className="card-content">
-                            <span className="card-category">{project.category}</span>
+                            <span className={`card-category category-${project.category.toLowerCase()}`}>{project.category}</span>
                             <h3>{project.title}</h3>
                             <p>{project.description}</p>
 
@@ -89,6 +89,19 @@ const Portfolio = () => {
                                 {project.techStack.map((tech, index) => (
                                     <span key={index}>{tech}</span>
                                 ))}
+                            </div>
+
+                            <div className="card-links">
+                                {project.githubLink && (
+                                    <a href={project.githubLink} target="_blank" rel="noreferrer" className="card-link-btn github">
+                                        <i className="lab la-github"></i> GitHub
+                                    </a>
+                                )}
+                                {project.demoLink && (
+                                    <a href={project.demoLink} target="_blank" rel="noreferrer" className="card-link-btn demo">
+                                        <i className="las la-external-link-alt"></i> Demo
+                                    </a>
+                                )}
                             </div>
                         </div>
                     </div>

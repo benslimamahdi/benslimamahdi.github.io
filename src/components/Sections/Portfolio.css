@@ -165,6 +165,21 @@
     font-weight: 500;
 }
 
+.category-ai {
+    color: #a855f7;
+    /* Purple */
+}
+
+.category-devops {
+    color: var(--text-accent);
+    /* Green */
+}
+
+.category-dev {
+    color: #3b82f6;
+    /* Blue */
+}
+
 .portfolio-card h3 {
     font-size: 1.25rem;
     margin-bottom: 15px;
@@ -230,4 +245,40 @@
     .portfolio-grid {
         grid-template-columns: 1fr;
     }
+}
+
+.card-links {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid var(--border-light);
+    display: flex;
+    gap: 15px;
+}
+
+.card-link-btn {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.85rem;
+    padding: 6px 12px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.03);
+    transition: all 0.3s ease;
+}
+
+.card-link-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.card-link-btn.github {
+    color: var(--text-primary);
+}
+
+.card-link-btn.demo {
+    color: var(--text-accent);
+}
+
+.card-link-btn i {
+    font-size: 1.1rem;
 }
