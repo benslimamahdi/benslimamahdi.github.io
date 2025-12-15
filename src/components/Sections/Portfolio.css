@@ -22,6 +22,47 @@
     background: var(--text-accent);
     color: var(--bg-primary);
     border-color: var(--text-accent);
+
+}
+
+.portfolio-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.search-container {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+}
+
+.search-input {
+    width: 100%;
+    background: transparent;
+    border: 1px solid var(--border-light);
+    padding: 12px 20px 12px 45px;
+    border-radius: 30px;
+    color: var(--text-primary);
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: var(--text-accent);
+    box-shadow: 0 0 15px rgba(40, 233, 140, 0.1);
+}
+
+.search-icon {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-secondary);
+    font-size: 1.2rem;
 }
 
 .portfolio-grid {

@@ -8,10 +8,17 @@ import projectsData from '../../data/projects.json';
 const Portfolio = () => {
     const [filter, setFilter] = useState('All');
     const [visibleCount, setVisibleCount] = useState(6);
+    const [searchQuery, setSearchQuery] = useState('');
 
-    const filteredProjects = projectsData.filter(project =>
-        filter === 'All' || project.category === filter
-    );
+    const filteredProjects = projectsData.filter(project => {
+        const matchesCategory = filter === 'All' || project.category === filter;
+        const searchLower = searchQuery.toLowerCase();
+        const matchesSearch = project.title.toLowerCase().includes(searchLower) ||
+            project.description.toLowerCase().includes(searchLower) ||
+            project.techStack.some(tech => tech.toLowerCase().includes(searchLower));
+
+        return matchesCategory && matchesSearch;
+    });
 
     const visibleProjects = filteredProjects.slice(0, visibleCount);
 
@@ -24,16 +31,29 @@ const Portfolio = () => {
 
             <h2 className="section-title">My <span className="text-accent">Projects</span></h2>
 
-            <div className="portfolio-filter">
-                {['All', 'DevOps', 'AI', 'Dev'].map(category => (
-                    <button
-                        key={category}
-                        className={`filter-btn ${filter === category ? 'active' : ''}`}
-                        onClick={() => { setFilter(category); setVisibleCount(6); }}
-                    >
-                        {category}
-                    </button>
-                ))}
+            <div className="portfolio-controls">
+                <div className="search-container">
+                    <i className="las la-search search-icon"></i>
+                    <input
+                        type="text"
+                        placeholder="Search projects..."
+                        value={searchQuery}
+                        onChange={(e) => { setSearchQuery(e.target.value); setVisibleCount(6); }}
+                        className="search-input"
+                    />
+                </div>
+
+                <div className="portfolio-filter">
+                    {['All', 'DevOps', 'AI', 'Dev'].map(category => (
+                        <button
+                            key={category}
+                            className={`filter-btn ${filter === category ? 'active' : ''}`}
+                            onClick={() => { setFilter(category); setVisibleCount(6); }}
+                        >
+                            {category}
+                        </button>
+                    ))}
+                </div>
             </div>
 
             <div className="portfolio-grid">

@@ -23,6 +23,18 @@
             "company": "DataSphera",
             "location": "Sfax, Tunisia",
             "description": "Developed and deployed highly efficient CI/CD pipelines in GitLab CI for EKS clusters. Integrated security scanning and compliance tools (Trivy, SonarQube)."
+        },
+        {
+            "id": 4,
+            "date": "Jul 2022 - Aug 2022",
+            "title": "IT Intern",
+            "company": "STAM Sfax",
+            "location": "Sfax, Tunisia",
+            "description": [
+                "Introduced to professional office work environments and administrative workflows.",
+                "Performed data entry and programming tasks to support daily operations.",
+                "Suggested and outlined improvements for the current IT booking system to enhance efficiency."
+            ]
         }
     ],
     "education": [
