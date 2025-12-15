@@ -1,0 +1,57 @@
+{
+    "experience": [
+        {
+            "id": 1,
+            "date": "Feb 2025 - Sep 2025",
+            "title": "DevOps Intern",
+            "company": "Oneex",
+            "location": "Clermont Ferrand, France",
+            "description": "Architected and automated multi-zone cloud infrastructure using Terraform, Ansible, and ArgoCD. Implemented proactive monitoring and alerting systems (Grafana, Prometheus)."
+        },
+        {
+            "id": 2,
+            "date": "Jun 2024 - Jul 2024",
+            "title": "DevOps Intern",
+            "company": "PerfectSoft",
+            "location": "Sfax, Tunisia",
+            "description": "Deployed Azure-based monitoring stack (Prometheus, Grafana, Loki). Implemented Infrastructure-as-Code (IaC) using Terraform."
+        },
+        {
+            "id": 3,
+            "date": "Jun 2023 - Aug 2023",
+            "title": "DevOps Intern",
+            "company": "DataSphera",
+            "location": "Sfax, Tunisia",
+            "description": "Developed and deployed highly efficient CI/CD pipelines in GitLab CI for EKS clusters. Integrated security scanning and compliance tools (Trivy, SonarQube)."
+        }
+    ],
+    "education": [
+        {
+            "id": 1,
+            "date": "2020 - 2025",
+            "title": "National Engineering Diploma in Data Engineering",
+            "institution": "Faculty of Sciences, University of Sfax",
+            "description": "Specialized in Data Engineering and DevOps practices."
+        }
+    ],
+    "leadership": [
+        {
+            "id": 1,
+            "date": "2025 - 2026",
+            "title": "Young Professionals Coordinator",
+            "organization": "IEEE Future Networks Forum"
+        },
+        {
+            "id": 2,
+            "date": "2025 - 2026",
+            "title": "Co-Founder & Operations Lead",
+            "organization": "DevAura (Freelance)"
+        },
+        {
+            "id": 3,
+            "date": "2024 - 2025",
+            "title": "Student Branch Chair",
+            "organization": "IEEE Faculty of Sciences of Sfax"
+        }
+    ]
+}
