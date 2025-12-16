@@ -23,7 +23,9 @@ const Hero = () => {
             <div className="hero-image">
                 {/*  Using the image moved to public folder */}
                 <div className="image-container">
-                    <img src="/Personal photo.png" alt="Mahdi Ben Slima" />
+                    <a href="https://www.linkedin.com/in/benslimamahdi/" target="_blank" rel="noreferrer">
+                        <img src="/crossing arms.jpg" alt="Mahdi Ben Slima" />
+                    </a>
                     <div className="circle-text">
                         <svg viewBox="0 0 200 200">
                             <defs>
